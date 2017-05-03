@@ -4,7 +4,7 @@ import {ReflexElement} from "react-reflex";
 class Details extends Component {
     render() {
         return (
-            <ReflexElement className="left-pane">
+            <ReflexElement className="left-pane" {...this.props}>
                 <div className="pane-content">
                     Details component
                 </div>
